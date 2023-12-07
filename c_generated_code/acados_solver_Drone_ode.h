@@ -39,23 +39,23 @@
 #include "acados_c/ocp_nlp_interface.h"
 #include "acados_c/external_function_interface.h"
 
-#define DRONE_ODE_NX     8
+#define DRONE_ODE_NX     11
 #define DRONE_ODE_NZ     0
 #define DRONE_ODE_NU     4
-#define DRONE_ODE_NP     12
+#define DRONE_ODE_NP     17
 #define DRONE_ODE_NBX    0
-#define DRONE_ODE_NBX0   8
+#define DRONE_ODE_NBX0   11
 #define DRONE_ODE_NBU    3
 #define DRONE_ODE_NSBX   0
 #define DRONE_ODE_NSBU   0
-#define DRONE_ODE_NSH    2
+#define DRONE_ODE_NSH    1
 #define DRONE_ODE_NSG    0
 #define DRONE_ODE_NSPHI  0
 #define DRONE_ODE_NSHN   0
 #define DRONE_ODE_NSGN   0
 #define DRONE_ODE_NSPHIN 0
 #define DRONE_ODE_NSBXN  0
-#define DRONE_ODE_NS     2
+#define DRONE_ODE_NS     1
 #define DRONE_ODE_NSN    0
 #define DRONE_ODE_NG     0
 #define DRONE_ODE_NBXN   0
@@ -63,8 +63,8 @@
 #define DRONE_ODE_NY0    0
 #define DRONE_ODE_NY     0
 #define DRONE_ODE_NYN    0
-#define DRONE_ODE_N      61
-#define DRONE_ODE_NH     2
+#define DRONE_ODE_N      52
+#define DRONE_ODE_NH     1
 #define DRONE_ODE_NPHI   0
 #define DRONE_ODE_NHN    0
 #define DRONE_ODE_NPHIN  0
